@@ -10,6 +10,7 @@ import Avatar from '@mui/material/Avatar';
 const useStyles = makeStyles({
   appBar: {
     boxShadow: 'none',
+    
   },
   img: {
     maxheight: 35,
