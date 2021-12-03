@@ -19,34 +19,21 @@ const posts = [
     title: "Video de dança de suingueira",
     date: "Novembro 22, 2021",
     description: "Fala pessoal, qual o framework favorito por voces?",
-    hashtags:"#Framework, #Javascript",
-    image:"/images/avatars"
+    hashtags:"#Postvideo, #Postreels",
+    image:"/images/posts/ab.jpg"
   },
   { id: 2,
     author: {
       id: 2,
       name: 'Maria costa',
       userName: 'mariazinha',
-      avatar: '/images/avatars/man.png'
+      avatar: '/images/avatars/female.png'
     },
     title: "Cantando a musica da xuxa ao contrario",
     date: "Novembro 22, 2021",
     description: "Fala pessoal, qual o framework favorito por voces?",
     hashtags:"#Framework, #Javascript",
-    image:"/images/avatars"
-  },
-  { id: 3,
-    author: {
-      id: 3,
-      name: 'Isis Maria',
-      userName: 'Isissilva',
-      avatar: '/images/avatars/man.png'
-    },
-    title: "Fazendo um miojo super temperado",
-    date: "Novembro 22, 2021",
-    description: "Fala pessoal, qual o framework favorito por voces?",
-    hashtags:"#Framework, #Javascript",
-    image:"/images/posts/card1.png"
+    image:"/images/posts/card1.jpg",
   },
 
 ];

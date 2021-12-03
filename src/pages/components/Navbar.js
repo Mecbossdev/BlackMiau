@@ -1,10 +1,10 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/styles';
 import Paper from '@mui/material/Paper';
-import  Button from '@material-ui/core/Button';
-import  ListSubheader from '@material-ui/core/ListSubheader';
-import  ListItem from '@material-ui/core/ListItem';
-import  ListItemText from '@material-ui/core/ListItemText';
+import Button from '@material-ui/core/Button';
+import ListSubheader from '@material-ui/core/ListSubheader';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemText from '@material-ui/core/ListItemText';
 
 const useStyles = makeStyles({
   root: {
@@ -18,10 +18,10 @@ const useStyles = makeStyles({
 });
   
   const tags = [
-    {id: 1, name:'Bom dia'},
-    {id: 2, name:'Boa tarde'},
-    {id: 3, name:'Boa noite'},
-    {id: 4, name:'Boa madrugada'},
+    {id: 1, name:'Post video'},
+    {id: 2, name:'Post reels'},
+    {id: 3, name:'Postfolio'},
+    {id: 4, name:'Contato'},
     {id: 5, name:'Bom café da manhã'},
     {id: 6, name:'Bom amanhecer'},
   ]
