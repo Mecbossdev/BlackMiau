@@ -1,16 +1,16 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/styles';
-import Card from '@mui/material/Card';
-import CardHeader from '@mui/material/CardHeader';
-import CardContent from '@mui/material/CardContent';
-import CardActions from '@mui/material/CardActions';
-import CardActionArea from '@mui/material/CardActions';
-import Typography from '@mui/material/Typography';
-import Avatar from '@mui/material/Avatar';
-import IconButton from '@mui/material/icons/IconButton';
-import FavoriteIcon from '@mui/material/icons/Favorite';
-import BookmarkIcon from '@mui/icons-material/Bookmark';
-import MessageIcon  from '@mui/material/icons/Message';
+import Card from '@material-ui/core/Card';
+import CardHeader from '@material-ui/core/CardHeader';
+import CardContent from '@material-ui/core/CardContent';
+import CardActions from '@material-ui/core/CardActions';
+import CardActionArea from '@material-ui/core/CardActions';
+import Typography from '@material-ui/core/Typography';
+import Avatar from '@material-ui/core/Avatar';
+import IconButton from '@material-ui/core/IconButton';
+import FavoriteIcon from '@material-ui/icons/Favorite';
+import BookmarkIcon from '@material-ui/icons/Bookmark';
+import MessageIcon  from '@material-ui/icons/Message';
 
 
 
