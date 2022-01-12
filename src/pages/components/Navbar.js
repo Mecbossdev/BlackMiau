@@ -1,21 +1,21 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/styles';
-import Paper from '@mui/material/Paper';
+import Paper from '@material-ui/core/Paper';
 import Button from '@material-ui/core/Button';
 import ListSubheader from '@material-ui/core/ListSubheader';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 
-const useStyles = makeStyles({
+const useStyles = makeStyles ((theme) => ({
   root: {
-    padding: 16,
+    padding: theme.spacing(),
     width: 275,
-    marginRight: 16
+    marginRight: theme.spacing(2),
   },
   button: {
     width: '100%'
   },
-});
+}));
   
   const tags = [
     {id: 1, name:'Post video'},
